@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,900&family=Lato:ital,wght@1,900&display=swap');
 
 body{
@@ -37,6 +36,7 @@ button{
     background: linear-gradient(145deg, #bbbbbb, #9e9e9e);
     box-shadow:  5px 5px 10px #464646,
                 -5px -5px 10px #e0e0e0;
+    transition: transform 0.5s ease-in-out;
 }
 .g1{
     background: linear-gradient(270deg, rgb(0,84,108),rgb(94, 81, 65),rgb(151,113,0));
@@ -64,4 +64,8 @@ button{
 }
 .g9{
     background: linear-gradient(270deg,rgb(244,194,120),rgb(181,124,23),rgb(61,93,20));
+}
+
+.g1:hover,.g2:hover,.g3:hover,.g4:hover,.g5:hover,.g6:hover,.g7:hover,.g8:hover,.g9:hover{
+    transform: scale(1.1);
 }
