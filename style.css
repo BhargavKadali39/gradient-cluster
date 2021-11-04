@@ -26,6 +26,7 @@ button{
     width: 40px;
     border: none;
     background-color: rgb(248, 201, 140);
+    cursor: copy;
 }
 .g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9{
     height: 400px;
