@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,900&family=Lato:ital,wght@1,900&display=swap');
 
 body{
@@ -9,12 +8,17 @@ body{
 }
 h1{
     font-family: 'Jost', sans-serif;
-    text-align: center;
+    width: 700px;
     font-size: 60px;
     letter-spacing: 3px;
+    margin-left: 30%;
     word-spacing: 20px;
     text-shadow:  5px 5px 10px #464646,
                  -5px -5px 10px #ffffff;
+    transition: text-shadow 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+h1:hover{
+    text-shadow: -5px 5px 10px #464646, 5px -5px 10px #ffffff;
 }
 .all{
     margin-left: 30px;
@@ -27,9 +31,8 @@ button{
     border: none;
     background-color: rgb(248, 201, 140);
     cursor: copy;
-    transition: all .2s cubic-bezier(0, -0.79, 0.09, 1.05);
 }
-.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9{
+.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9,.g10,.g11,.g12,.g13,.g14,.g15,.g16,.g17,.g18{
     height: 400px;
     width: 400px;
     border-radius: 50%;
@@ -39,7 +42,7 @@ button{
     background: linear-gradient(145deg, #bbbbbb, #9e9e9e);
     box-shadow:  5px 5px 10px #464646,
                 -5px -5px 10px #e0e0e0;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 .g1{
     background: linear-gradient(270deg, rgb(0,84,108),rgb(94, 81, 65),rgb(151,113,0));
@@ -57,7 +60,7 @@ button{
     background: linear-gradient(270deg,rgb(184, 41, 86),rgb(177, 44, 66),rgb(133, 27, 44));
 }
 .g6{
-    background: linear-gradient(270deg,rgb(239,191,36),rgb(212, 100, 1),rgb(142, 56, 2));
+    background: linear-gradient(270deg,#efbf24,#d46401,#8e3802);
 }
 .g7{
     background: linear-gradient(270deg,rgb(184, 135, 90),rgb(158, 115, 62),rgb(107, 78, 53));
@@ -68,7 +71,36 @@ button{
 .g9{
     background: linear-gradient(270deg,rgb(244,194,120),rgb(181,124,23),rgb(61,93,20));
 }
+.g10{
+    background: rgb(1,19,55);
+}
+.g11{
+    background: rgb(30, 5, 61);
+}
+.g12{
+    background: rgb(5, 5, 61);
+}
+.g13{
+    background: linear-gradient(90deg, rgb(0, 59, 56), rgb(0, 202, 192));
+}
+.g14{
+    background: linear-gradient(90deg, rgb(3, 92, 65), rgb(3, 53, 94), rgb(1,19,34));
+}
+.g15{
+    background: rgb(196, 17, 71);
+}
+.g16{
+    background: linear-gradient(0deg, rgb(10,69,77),rgb(44,114,117),rgb(65,142,134));
+}
+.g17{
+    background: linear-gradient(270deg,rgb(0,248,233),rgb(0,178,166),rgb(4,61,145));
+}
+.g18{
+    background: linear-gradient(90deg,rgb(0,248,233),rgb(0,178,166),rgb(4,61,145));
+}
 
-.g1:hover,.g2:hover,.g3:hover,.g4:hover,.g5:hover,.g6:hover,.g7:hover,.g8:hover,.g9:hover{
+.g1:hover,.g2:hover,.g3:hover,.g4:hover,.g5:hover,.g6:hover,.g7:hover,.g8:hover
+,.g9:hover,.g10:hover,.g11:hover,.g12:hover,.g13:hover
+,.g14:hover,.g15:hover,.g16:hover,.g17:hover,.g18:hover{
     transform: scale(1.1);
 }
